@@ -21,7 +21,7 @@ mcedit /etc/ppp/peers/vpnconn
 
 ## Add VPN connection
 ```
-pty "pptp 178.20.158.9 --nolaunchpppd"
+pty "pptp x.x.x.x --nolaunchpppd"
 name vpnconn
 remotename PPTP
 require-mppe-128
