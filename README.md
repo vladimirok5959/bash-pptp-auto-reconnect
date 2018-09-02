@@ -45,3 +45,6 @@ Usage: vpn "ppp0" "10.0.0.1" "vpnconn"
 ```
 * *	* * *	root	/usr/local/bin/vpn "ppp0" "10.0.0.1" "vpnconn" >/dev/null
 ```
+
+## Quick install
+wget -O /usr/local/bin/vpn https://github.com/vladimirok5959/bash-pptp-auto-reconnect/releases/download/latest/vpn; chmod +x /usr/local/bin/vpn
