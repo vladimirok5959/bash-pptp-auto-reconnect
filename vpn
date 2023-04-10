@@ -8,6 +8,6 @@
 
 if ! /sbin/ifconfig $1 | grep -q "$2"
 then
-	/usr/bin/poff $3
-	/usr/bin/pon $3
+	sudo /usr/bin/poff $3
+	sudo /usr/bin/pon $3
 fi
